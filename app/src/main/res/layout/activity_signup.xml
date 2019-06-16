@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/grad_bg"
+    android:animateLayoutChanges="true"
+    android:padding="8dp"
+    android:orientation="vertical"
+    tools:context=".authentication.SignupActivity">
+
+    <ImageView
+        android:id="@+id/logo1"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:src="@drawable/aa"
+        android:adjustViewBounds="true"
+        android:scaleType="fitCenter"
+        android:layout_gravity="center"
+        android:layout_marginTop="8dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:fontFamily="sans-serif-dark"
+        android:padding="8dp"
+        android:text="@string/sign_up1"
+        android:textColor="@color/white"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <EditText
+            style="@style/signup"
+            android:id="@+id/Name"
+            android:hint="NAME" />
+
+        <EditText
+            style="@style/signup"
+            android:id="@+id/e"
+            android:hint="@string/e_mail" />
+
+        <EditText
+            style="@style/signup"
+            android:id="@+id/pass"
+            android:hint="@string/password"
+            android:inputType="textPassword"/>
+
+        <EditText
+            style="@style/signup"
+            android:id="@+id/repass"
+            android:hint="Retype password"
+            android:inputType="textPassword"/>
+
+       <Spinner
+           style="@style/signup"
+           android:id="@+id/yearSpinner" />
+
+        <Spinner
+           style="@style/signup"
+            android:id="@+id/departmentSpinner" />
+
+
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="16dp"
+            android:orientation="horizontal">
+            <RadioButton
+                android:id="@+id/radio_professor"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Professor"
+                android:layout_marginRight="8dp"
+                android:onClick="onRadioButtonClicked"/>
+            <RadioButton
+                android:id="@+id/radio_student"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Student"
+                android:checked="true"
+                android:onClick="onRadioButtonClicked"/>
+        </RadioGroup>
+
+        <Button
+            android:id="@+id/submit"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_marginTop="16dp"
+            android:text="@string/sign_up"
+            android:fontFamily="sans-serif-medium"
+            android:paddingLeft="70dp"
+            android:paddingRight="70dp"
+            android:background="@drawable/bt_bg"
+            android:textColor="@color/white"
+            android:textAllCaps="false"
+            android:textSize="16sp"
+            android:layout_gravity="center"
+            android:onClick="signup" />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/transparent"
+            android:fontFamily="sans-serif-light"
+            android:layout_gravity="center"
+            android:text="@string/already_have_account_login"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:onClick="toIn"/>
+    </LinearLayout>
+        </ScrollView>
+
+
+
+</LinearLayout>

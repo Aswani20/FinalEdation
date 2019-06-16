@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/grades_page"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:background="@drawable/gradient_4"
+    tools:context=".grades.GradesActivity">
+        <LinearLayout
+            style="@style/child_linear"
+            android:id="@+id/parent"
+            android:background="@drawable/layout_shape">
+
+            <LinearLayout
+                style="@style/child_linear"
+                android:id="@+id/child2"
+                android:background="@drawable/layout_child"
+                android:layout_margin="8dp">
+                <Spinner
+                    style="@style/textView_uniDiem"
+                    android:id="@+id/subject" />
+            </LinearLayout>
+
+            <RelativeLayout
+                style="@style/child_linear"
+                android:id="@+id/child"
+                android:background="@drawable/layout_child"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:paddingEnd="8dp"
+                android:paddingStart="8dp">
+
+                <TextView
+                    style="@style/textView_uniDiem"
+                    android:id="@+id/oral"
+                    android:text="oral marks"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true" />
+
+                <TextView
+                    style="@style/textView_uniDiem"
+                    android:id="@+id/oralVal"
+                    android:text="52"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentTop="true"
+                    />
+
+                <View
+                    style="@style/devider"
+                    android:id="@+id/div1"
+                    android:layout_below="@id/oral"/>
+
+                <TextView
+                    style="@style/textView_uniDiem"
+                    android:id="@+id/attendance"
+                    android:text="attendance marks"
+
+                    android:layout_below="@id/div1" />
+
+                <TextView
+                    style="@style/textView_uniDiem"
+                    android:id="@+id/attendanceVal"
+                    android:text="51"
+                    android:layout_alignParentRight="true"
+
+                    android:layout_below="@id/div1"/>
+
+                <View
+                    style="@style/devider"
+                    android:id="@+id/div2"
+                    android:layout_below="@id/attendance"/>
+
+                <TextView
+                    style="@style/textView_uniDiem"
+                    android:id="@+id/midterm"
+                    android:text="midterm marks"
+                    android:layout_alignParentLeft="true"
+                    android:layout_below="@id/div2"/>
+
+                <TextView
+                    style="@style/textView_uniDiem"
+                    android:id="@+id/midtermVal"
+                    android:text="50"
+                    android:layout_alignParentRight="true"
+                    android:layout_below="@id/div2"/>
+
+                <View
+                    style="@style/devider"
+                    android:id="@+id/div3"
+                    android:layout_below="@id/midterm"/>
+
+                <TextView
+                    style="@style/textView_uniDiem"
+                    android:id="@+id/finalexam"
+                    android:text="finalexam marks"
+                    android:layout_alignParentLeft="true"
+                    android:layout_below="@id/div3"/>
+
+                <TextView
+                    android:id="@+id/finalexamVal"
+                    style="@style/textView_uniDiem"
+                    android:text="80"
+                    android:layout_alignParentRight="true"
+                    android:layout_below="@id/div3"/>
+
+
+
+            </RelativeLayout>
+
+    <LinearLayout
+        style="@style/child_linear"
+        android:orientation="horizontal"
+        android:id="@+id/child3"
+        android:background="@drawable/layout_child"
+        android:layout_margin="8dp">
+
+        <TextView
+            style="@style/textView_uniDiem"
+            android:id="@+id/total"
+            android:text="total marks"/>
+
+    </LinearLayout>
+
+
+        </LinearLayout>
+
+</ScrollView>

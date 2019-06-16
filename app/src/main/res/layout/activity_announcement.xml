@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_4"
+    tools:context=".announcement.AnnouncementActivity">
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recylerview_announcement"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        tools:listitem="@layout/item_announcement">
+    </android.support.v7.widget.RecyclerView>
+
+
+
+       <LinearLayout
+           android:id="@+id/layout_A"
+           android:layout_width="match_parent"
+           android:layout_height="46dp"
+           android:paddingBottom="4dp"
+           android:paddingTop="4dp"
+           android:orientation="horizontal"
+           android:layout_alignParentBottom="true"
+           android:background="@drawable/gradient_4">
+
+           <Button
+               android:id="@+id/department_id_button"
+               android:layout_width="wrap_content"
+               android:layout_height="36dp"
+               android:paddingStart="8dp"
+               android:text="Change department."
+               android:background="@drawable/rounded_bottom" />
+
+           <EditText
+               android:id="@+id/messageEditText"
+               android:layout_width="0dp"
+               android:layout_height="35dp"
+               android:layout_gravity="center_vertical"
+               android:layout_marginLeft="8dp"
+               android:layout_marginRight="8dp"
+               android:padding="2dp"
+               android:layout_weight="1"
+               android:background="@drawable/ed"
+               android:focusable="true"
+               android:inputType="textMultiLine"
+               android:visibility="invisible"/>
+
+           <Button
+               android:id="@+id/sendButton"
+               android:layout_width="wrap_content"
+               android:layout_height="35dp"
+               android:background="@drawable/rounded_bottom"
+               android:text="@string/send_button_label" />
+       </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/sectionA"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:visibility="gone"
+        android:layout_centerInParent="true">
+
+        <Spinner
+            style="@style/signup"
+            android:id="@+id/yearAnnouncement" />
+
+        <Spinner
+            style="@style/signup"
+            android:id="@+id/departmentAnnouncement" />
+
+        <Button
+            android:id="@+id/applyAnnouncement"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_marginTop="16dp"
+            android:text="Apply"
+            android:fontFamily="sans-serif-medium"
+            android:paddingLeft="70dp"
+            android:paddingRight="70dp"
+            android:background="@drawable/bt_bg"
+            android:textColor="@color/white"
+            android:textAllCaps="false"
+            android:textSize="16sp"
+            android:layout_gravity="center" />
+
+    </LinearLayout>
+
+
+
+
+</RelativeLayout>

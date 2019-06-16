@@ -1,0 +1,157 @@
+<resources>
+    <string name="app_name">College Assistant</string>
+    <string name="password">Password</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="forget_password">Forget Password</string>
+    <string name="log_in">LOG IN</string>
+    <string name="googleSigning">SignIn with google</string>
+    <string name="e_mail">E-Mail</string>
+    <string name="login">Welcome to College Assistant! </string>
+    <string name="sign_up1">SIGN UP</string>
+    <string name="already_have_account_login">Already have Account? LOGIN</string>
+    <string name="send_button_label">SEND</string>
+    <string name="sign_out">Sign Out</string>
+
+    <!-- spinner test list.  -->
+    <string-array name="Subject">
+        <item>Solid</item>
+        <item>Nuclear</item>
+        <item>Electronics</item>
+        <item>Low Temperature</item>
+        <item>Theory pf computation</item>
+        <item>Compiler design</item>
+        <item>Networking</item>
+        <item>Image processing</item>
+    </string-array>
+
+
+    <!--choose year-->
+    <string-array name="yearC">
+        <item>choose year</item>
+    </string-array>
+    <!--choose section-->
+    <string-array name="sectionC">
+        <item>Select department!</item>
+    </string-array>    <!-- choose department-->
+    <string name="department">choose department</string>
+
+    <string-array name="college_departments">
+        <item>Select department!</item>
+        <item>Chemistry</item>
+        <item>Plants</item>
+        <item>Physics</item>
+        <item>Zoology</item>
+        <item>Geology</item>
+        <item>Math and Computer Science</item>
+    </string-array>
+
+    <string-array name="year">
+        <item>Select Enrollment year!</item>
+        <item>First Year</item>
+        <item>Second Year</item>
+        <item>Third Year</item>
+        <item>Fourth Year</item>
+    </string-array>
+
+    <!-- first year department-->
+    <string-array name="first">
+        <item>Select department!</item>
+        <item>Biological Science</item>
+        <item>Physics Science</item>
+        <item>Geological Science</item>
+        <item>BioTechnology</item>
+    </string-array>
+
+
+    <!-- second year departments-->
+    <!-- department list combined-->
+    <string-array name="second">
+        <item>Select department!</item>
+        <!--Geo-->
+        <item>Geology</item>
+        <item>Geophysics</item>
+        <!--chemistry-->
+        <item>Physics and Chemistry</item>
+        <!--Bio-->
+        <item>Biological Science</item>
+        <item>BioTechnology</item>
+        <!--Physics-->
+        <item>Physic ,Math and Astronomy</item>
+        <item>Physics and Chemistry</item>
+        <item>Biophysics</item>
+    </string-array>
+    <!-- Department lists separated-->
+    <string-array name="Geological_science">
+        <item>Geology</item>
+        <item>Geophysics</item>
+    </string-array>
+
+    <string-array name="Physics_science">
+        <item>Physic ,Math and Astronomy</item>
+        <item>Physics and Chemistry</item>
+        <item>Biophysics</item>
+    </string-array>
+
+    <!-- THIRD YEAR DEPARTMENTS-->
+    <!-- department list combined-->
+    <string-array name="third">
+        <item>Select department!</item>
+        <!--Geo-->
+        <item>Geology</item>
+        <item>Geophysics</item>
+        <!--chemistry-->
+        <item>Special Chemistry</item>
+        <item>Applied Chemistry</item>
+        <item>Physics and Chemistry</item>
+        <!--Physics-->
+        <item>Statistics and ComputerScience</item>
+        <item>Math and ComputerScience</item>
+        <item>Physics and ComputerScience</item>
+        <item>Special Physics</item>
+        <item>Special Mathematics</item>
+        <item>Space</item>
+        <!--biology-->
+        <item>Chemistry and Biochemistry</item>
+        <item>Chemistry and Plant</item>
+        <item>Chemistry and Zoology</item>
+        <item>Microbiology and Biochemistry</item>
+        <item>Microbiology</item>
+        <item>Plant</item>
+        <item>zoology</item>
+        <!--BioTech-->
+        <item>BioTechnology</item>
+    </string-array>
+    <!-- Department lists separated-->
+    <string-array name="Physics_and_Chemistry">
+        <item>Special Chemistry</item>
+        <item>Applied Chemistry</item>
+        <item>Physics and Chemistry</item>
+    </string-array>
+
+    <string-array name="Physic_Math_Astronomy">
+        <item>Statistics and ComputerScience</item>
+        <item>Math and ComputerScience</item>
+        <item>Physics and ComputerScience</item>
+        <item>Special Physics</item>
+        <item>Special Mathematics</item>
+        <item>Space</item>
+    </string-array>
+
+    <string-array name="Biological_Science">
+        <item>Chemistry and Biochemistry</item>
+        <item>Chemistry and Plant</item>
+        <item>Chemistry and Zoology</item>
+        <item>Microbiology and Biochemistry</item>
+        <item>Microbiology</item>
+        <item>Plant</item>
+        <item>zoology</item>
+    </string-array>
+    <string name="title_activity_drawer">DrawerActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+</resources>

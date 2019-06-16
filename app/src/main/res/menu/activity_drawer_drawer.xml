@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_note"
+            android:icon="@drawable/ic_content_paste_black_24dp"
+            android:title="My Notes" />
+        <item
+            android:id="@+id/nav_guide"
+            android:icon="@drawable/ic_book_black_24dp"
+            android:title="Student Guide" />
+        <item
+            android:id="@+id/nav_connect"
+            android:icon="@drawable/ic_email_black_24dp"
+            android:title="Connect US" />
+    </group>
+
+    <item android:title="Actions">
+        <menu>
+            <item
+                android:id="@+id/nav_setting"
+                android:icon="@drawable/ic_settings_black_24dp"
+                android:title="Account Setting" />
+            <item
+                android:id="@+id/nav_logout"
+                android:icon="@drawable/ic_exit_to_app_black_24dp"
+                android:title="LOGOUT" />
+        </menu>
+    </item>
+
+</menu>

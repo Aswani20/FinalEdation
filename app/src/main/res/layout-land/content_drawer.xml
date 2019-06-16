@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".MainActivity"
+    tools:showIn="@layout/app_bar_drawer">
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:weightSum="1"
+            android:layout_weight="0.4">
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.5">
+
+                <Button
+                    android:id="@+id/button1"
+                    android:layout_width="250dp"
+                    android:layout_height="match_parent"
+                    android:background="#00000000"
+                    android:gravity="center|bottom"
+                    android:paddingTop="0dp"
+                    android:singleLine="false"
+                    android:text="Subject"
+                    android:textSize="18sp" />
+                <ImageView
+                    android:layout_width="250dp"
+                    android:layout_height="70dp"
+                    android:layout_marginTop="1dp"
+                    android:src="@drawable/subject"
+                    />
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.5">
+                <Button
+                    android:layout_width="250dp"
+                    android:layout_height="match_parent"
+                    android:id="@+id/button2"
+                    android:background="#00000000"
+                    android:layout_alignParentEnd="true"
+                    android:text="Table"
+                    android:textSize="18sp"
+                    android:gravity="center|bottom"
+                    android:singleLine="false"
+                    android:paddingBottom="0dp"/>
+                <ImageView
+                    android:layout_width="250dp"
+                    android:layout_height="70dp"
+                    android:src="@drawable/table"
+                    android:layout_alignParentEnd="true"/>
+            </RelativeLayout>
+        </TableRow>
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.37">
+
+            <Button
+                android:id="@+id/button5"
+                android:layout_width="match_parent"
+                android:layout_centerInParent="true"
+                android:layout_height="match_parent"
+                android:background="#00000000"
+                android:gravity="center|bottom"
+                android:paddingBottom="0dp"
+                android:text="Chat"
+                android:textSize="18sp" />
+            <ImageView
+                android:layout_width="250dp"
+                android:layout_height="70dp"
+                android:src="@drawable/chat"
+                android:layout_centerInParent="true"/>
+        </RelativeLayout>
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:weightSum="1"
+            android:layout_weight="0.4">
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.5">
+                <Button
+                    android:layout_width="250dp"
+                    android:layout_height="match_parent"
+                    android:id="@+id/button3"
+                    android:background="#00000000"
+                    android:text="Attendance"
+                    android:textSize="18sp"
+                    android:gravity="center|bottom"
+                    android:paddingBottom="0dp"/>
+                <ImageView
+                    android:layout_width="250dp"
+                    android:layout_height="70dp"
+                    android:src="@drawable/attendence"
+                    android:layout_alignParentStart="true"/>
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.5">
+                <Button
+                    android:layout_width="250dp"
+                    android:layout_height="match_parent"
+                    android:id="@+id/button4"
+                    android:layout_alignParentEnd="true"
+                    android:background="#00000000"
+                    android:text="Announcement"
+                    android:textSize="18sp"
+                    android:gravity="center|bottom"
+                    android:paddingBottom="0dp"/>
+                <ImageView
+                    android:layout_width="250dp"
+                    android:layout_height="70dp"
+                    android:src="@drawable/announcement"
+                    android:layout_alignParentEnd="true"/>
+            </RelativeLayout>
+        </TableRow>
+
+
+
+
+
+    </TableLayout>
+
+
+</android.support.constraint.ConstraintLayout>
